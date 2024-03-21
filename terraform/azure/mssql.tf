@@ -217,6 +217,7 @@ resource "azurerm_mssql_server_security_alert_policy" "alertpolicy5" {
     "Data_Exfiltration"
   ]
   retention_days = 20
+  email_account_admins = true
 }
 
 resource "azurerm_mssql_server_security_alert_policy" "alertpolicy6" {
